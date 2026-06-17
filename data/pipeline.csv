@@ -1,0 +1,30 @@
+# PIPELINE DATABASE
+# Edit this file to update pipeline information
+# modality options: Small Molecule, ADC, Antisense Oligonucleotide, Protein Degrader, Liquid Biopsy, Cell Therapy, Biologic
+# phase options: Preclinical, Phase 1, Phase 1/2, Phase 2, Phase 2b, Phase 3, NDA Filed, Approved, Commercial
+
+ticker,company,asset,modality,indication,phase,partner,upcoming_milestone,estimated_timing,notes
+CYTK,Cytokinetics,Aficamten (Myqorzo),Small Molecule,Obstructive HCM (oHCM),Commercial,None,China / EU commercial ramp,2026,First wholly-owned CYTK commercial product. Approved US + China + EU.
+CYTK,Cytokinetics,Aficamten (ACACIA-HCM),Small Molecule,Non-Obstructive HCM (nHCM),Phase 3,None,Topline data,Q2 2026,Pivotal trial. nHCM is a larger and underserved population vs oHCM. p-value success = major re-rating event.
+CYTK,Cytokinetics,CK-586,Small Molecule,Heart Failure with Preserved Ejection Fraction (HFpEF),Phase 2,None,Phase 2 data,2027,Earlier stage. Targets myosin activator mechanism in HFpEF — a massive unmet need.
+NRIX,Nurix Therapeutics,Bexobrutideg (NX-5948),Protein Degrader,Relapsed/Refractory CLL,Phase 1/2,Roche,DAYBreak enrollment completion,H2 2026,83% ORR and 22.1-month mPFS in r/r CLL. Outperforms JAYPIRCA. Roche deal closed Q3 2026.
+NRIX,Nurix Therapeutics,Bexobrutideg (Phase 3),Protein Degrader,Second-line CLL,Phase 3,Roche,Phase 3 initiation,Summer 2026,Full approval path. Co-funded 40/60 with Roche.
+NRIX,Nurix Therapeutics,Bexobrutideg (MS),Protein Degrader,Multiple Sclerosis,Phase 2,Roche,Phase 2 initiation / early data,2026-2027,Immunology expansion. BTK scaffolding function relevant in B-cell driven inflammation.
+NRIX,Nurix Therapeutics,Bexobrutideg (CSU),Protein Degrader,Chronic Spontaneous Urticaria,Phase 2,Roche,Phase 2 initiation / early data,2026-2027,Immunology expansion. IgE pathway involvement makes BTK degradation a rational mechanism.
+IDYA,IDEAYA Biosciences,Darovasertib + Crizotinib,Small Molecule,Metastatic Uveal Melanoma (HLA*A2-neg),NDA Filed,None,FDA acceptance and review decision,H2 2026,58% reduction in progression risk vs standard therapy. p<0.0001. RTOR submission in process.
+IDYA,IDEAYA Biosciences,Darovasertib + Crizotinib,Small Molecule,Metastatic Uveal Melanoma (HLA*A2-pos),Phase 2,None,Phase 2 data readout,H2 2026,Label expansion cohort. HLA*A2-positive patients not yet proven — major optionality if positive.
+IDYA,IDEAYA Biosciences,IDE849,Small Molecule,DLL3-positive Solid Tumors,Phase 1/2,None,Phase 1/2 data readout,H2 2026,PARP1 inhibitor in DLL3-positive tumors. Earlier stage synthetic lethality program.
+IDYA,IDEAYA Biosciences,IDE034,Biologic,Multiple Solid Tumors,Phase 1,None,Phase 1 initiation data,H2 2026,B7H3/PTK7 bispecific ADC. Earlier stage.
+IDYA,IDEAYA Biosciences,IDE892,Small Molecule,Solid Tumors (RAS-mutant),Phase 1,Roche,Clinical collaboration initiation,2026,PRMT5 inhibitor combined with Roche pan-RAS inhibitor. Synthetic lethality approach.
+CTMX,CytomX Therapeutics,Varseta-M (CX-2051),ADC,Metastatic Colorectal Cancer (mCRC),Phase 2,None,Full 40-patient optimization cohort data,H2 2026,32% ORR in late-line mCRC. Only EpCAM-directed ADC in clinical development. Toxicity (diarrhea) is key variable.
+CTMX,CytomX Therapeutics,Varseta-M (expansion),ADC,EpCAM-positive Solid Tumors,Phase 1/2,None,Expansion cohort initiation and early data,H2 2026 - H1 2027,350K+ US patients across EpCAM-positive tumors outside CRC. Bevacizumab combination data expected H1 2027.
+GPCR,Structure Therapeutics,Aleniglipron,Small Molecule,Obesity / Overweight,Phase 3,None,Phase 3 initiation,Q3 2026,Oral GLP-1. 16.3% body weight loss at 44 weeks in Phase 2. Published in Nature Medicine. FDA gave positive EoP2 feedback.
+GRAL,GRAIL,Galleri,Liquid Biopsy,Multi-Cancer Early Detection (MCED),Commercial,None,CMS national coverage determination,2026,Only commercial MCED test. Volume up 50% YoY. Reimbursement is the key unlock for mass-market adoption.
+CDNA,CareDx,AlloSure Kidney,Liquid Biopsy,Kidney Transplant Surveillance,Commercial,None,Revenue and volume update,Q3 2026,Market leader in kidney transplant surveillance. Reimbursed by CMS.
+CDNA,CareDx,AlloSure Heart,Liquid Biopsy,Heart Transplant Surveillance,Commercial,None,Revenue and volume update,Q3 2026,Commercial stage.
+CDNA,CareDx,Naveris (viral surveillance),Liquid Biopsy,Viral-Mediated Cancer Surveillance,Phase 2,None,Integration and early data update,H2 2026,Acquired company. Adds BK virus / EBV / CMV monitoring for transplant patients and oncology surveillance.
+IONS,Ionis Pharmaceuticals,TRYNGOLZA (olezarsen),Antisense Oligonucleotide,Familial Chylomicronemia Syndrome (FCS),Commercial,None,Revenue update,Q3 2026,First wholly owned Ionis commercial product. Approved 2024.
+IONS,Ionis Pharmaceuticals,DAWNZERA (donidalorsen),Antisense Oligonucleotide,Hereditary Angioedema (HAE),Commercial,None,Revenue update,Q3 2026,Second wholly owned Ionis commercial product. Approved 2024-2025.
+IONS,Ionis Pharmaceuticals,Eplontersen (partner royalty),Antisense Oligonucleotide,ATTR Amyloidosis,Commercial,AstraZeneca,Royalty stream growth,Ongoing,Partnered to AstraZeneca. Royalty-generating.
+IONS,Ionis Pharmaceuticals,Multiple late-stage ASOs,Antisense Oligonucleotide,Neurology / Cardiology,Phase 2/3,Various,Multiple readouts,H2 2026,Broad pipeline across TTR amyloid cardiomyopathy, Huntington's, ALS, and cardiovascular indications.
+NBTX,Nanobiotix,JNJ-1900 (NBTXR3),Radiotherapy Enhancer,Multiple Solid Tumors,Phase 3,Johnson & Johnson,Pivotal trial interim / milestone trigger,2026,J&J leading development. NBTX retains milestone and royalty economics. Capital-light model.

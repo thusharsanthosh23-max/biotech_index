@@ -1,0 +1,92 @@
+{
+  "NBTX": {
+    "name": "Nanobiotix",
+    "theme": "Royalty / Platform",
+    "why_in_index": "Capital-light royalty model with J&J bearing development costs. Extended runway to 2029 with milestone/royalty upside from a novel radiotherapy-enhancer platform.",
+    "thesis": "Nanobiotix is shifting toward a capital-light model, with Johnson & Johnson leading development of JNJ-1900 while Nanobiotix retains milestone and royalty economics. The thesis emphasizes extended runway (through 2029 per management) and upside from broader adoption of its radiotherapy-enhancer platform.",
+    "bull_case": "JNJ-1900 succeeds in pivotal trial, triggering milestone payments and validating the NBTX platform. J&J's commercial infrastructure drives broad global adoption. Royalty stream becomes a high-margin recurring revenue source. Platform expands into additional indications with new partners.",
+    "bear_case": "JNJ-1900 fails in pivotal trial. J&J deprioritizes the program. Nanobiotix is left with a single-asset dependency and limited cash to fund independent development. Dilution risk materializes through emergency capital raise.",
+    "key_risks": "Single-asset dependency on JNJ-1900 outcome. J&J can deprioritize or terminate at will. Regulatory risk on pivotal trial design. Capital structure risk if milestones are delayed. Thin pipeline outside JNJ-1900.",
+    "recent_developments": "J&J advancing JNJ-1900 into pivotal trial. Management guided runway through 2029. Capital-light model preserves existing cash. Royalty/milestone economics negotiated in the J&J collaboration agreement."
+  },
+  "IONS": {
+    "name": "Ionis Pharmaceuticals",
+    "theme": "RNA Therapeutics",
+    "why_in_index": "Platform-validated RNA therapeutics company transitioning to commercial stage. First wholly owned drugs launched in 2024-2025. Growing royalty streams from partner portfolio provide durable revenue floor.",
+    "thesis": "Ionis is transitioning from a platform-validated RNA therapeutics developer into a high-margin commercial biotech with accelerating revenue and expanding royalty streams. The strong early launches of TRYNGOLZA and DAWNZERA establish recurring, higher-margin revenue alongside major late-stage catalysts.",
+    "bull_case": "TRYNGOLZA and DAWNZERA achieve blockbuster status. Royalty streams from partner programs accelerate. Late-stage pipeline generates additional wholly owned commercial products. Ionis re-rates from a platform company to a commercial biotech at significantly higher multiples.",
+    "bear_case": "Commercial launches underwhelm. Competition erodes market share for TRYNGOLZA and DAWNZERA. Pipeline clinical setbacks create gaps in revenue growth trajectory. Royalty streams disappoint as partner programs slow.",
+    "key_risks": "Commercial execution risk on early launches. Partner program dependency for royalty streams. Clinical risk across late-stage pipeline. Competition from rival RNA modalities including siRNA.",
+    "recent_developments": "TRYNGOLZA and DAWNZERA launched as first wholly owned Ionis commercial products. Royalty streams expanding from Alnylam and other partners. Multiple late-stage programs approaching readout in 2026."
+  },
+  "CYTK": {
+    "name": "Cytokinetics",
+    "theme": "Cardiovascular",
+    "why_in_index": "Rare commercial-stage SMid-cap biotech with a clear path to becoming the dominant cardiovascular muscle biology platform. Myqorzo launch de-risks the commercial execution question. ACACIA-HCM is the highest-impact near-term binary in the watchlist.",
+    "thesis": "Cytokinetics is emerging as a leading cardiovascular biotech with a successful first commercial product (Myqorzo in oHCM) and a potentially transformative expansion opportunity in non-obstructive HCM. The pivotal Phase 3 ACACIA-HCM trial and $1.1B+ cash runway make this a compelling SMid-cap CV name.",
+    "bull_case": "ACACIA-HCM succeeds — aficamten approved in nHCM, a larger patient population than oHCM. Myqorzo continues rapid uptake in oHCM and gains global market share vs. Camzyos. Cytokinetics becomes the clear cardiovascular platform leader across both HCM indications. Pipeline expansion into heart failure provides additional optionality.",
+    "bear_case": "ACACIA-HCM fails. Stock collapses on loss of the major growth driver. Myqorzo market share erodes to Camzyos competition. Company left as a single-indication commercial biotech at a much lower valuation.",
+    "key_risks": "ACACIA-HCM trial outcome is the primary binary risk. Myqorzo commercial execution vs. Bristol Myers Squibb's Camzyos. Cardiovascular label limitations if safety data is mixed. Significant cash burn during commercial buildout.",
+    "recent_developments": "Myqorzo launched with strong early physician uptake across US, China, and EU. ACACIA-HCM Phase 3 fully enrolled and on track for 2Q 2026 topline data. Citi coverage initiated with positive outlook. $1.1B+ cash provides runway through commercialization and pipeline advancement."
+  },
+  "GRAL": {
+    "name": "GRAIL",
+    "theme": "Diagnostics / MCED",
+    "why_in_index": "Only pure-play multi-cancer early detection company. If reimbursement is achieved, Galleri becomes a recurring annual screening test for millions — a fundamentally different revenue model than therapeutics.",
+    "thesis": "GRAIL is scaling adoption of its Galleri multi-cancer early detection test with accelerating volume growth. Expanding clinical evidence, payer engagement, and employer-channel penetration could broaden reimbursement and drive large-scale recurring demand.",
+    "bull_case": "CMS issues a national coverage determination for Galleri. Volume grows exponentially from a recurring annual test model. GRAIL becomes the standard of care for cancer screening alongside colonoscopy and mammography. Revenue inflects from employer-only to mass-market.",
+    "bear_case": "CMS denies or delays reimbursement indefinitely. GRAIL is stuck in the employer self-pay market at modest scale. Competing multi-cancer screening technologies from Exact Sciences or others enter the market. High gross losses persist without volume scale.",
+    "key_risks": "Reimbursement is the single biggest risk. Without CMS coverage, TAM is limited. Clinical utility debates delay coverage decisions. Competition from rival liquid biopsy platforms. High cash burn with no clear profitability timeline.",
+    "recent_developments": "Q1 2026 revenue up 28% YoY. Test volume up 50%. Employer channel penetration expanding. Payer discussions ongoing. Clinical evidence portfolio growing with PATHFINDER and NHS-Galleri trial data."
+  },
+  "CDNA": {
+    "name": "CareDx",
+    "theme": "Transplant Diagnostics",
+    "why_in_index": "Market leader in transplant surveillance diagnostics with strong recurring revenue. 39% YoY growth with raised guidance signals a genuine commercial inflection. Naveris acquisition diversifies into adjacent oncology surveillance market.",
+    "thesis": "CareDx is a leading precision-diagnostics company in transplant surveillance, posting 39% YoY revenue growth in Q1 2026 and raising full-year guidance. The Naveris acquisition adds viral-mediated cancer surveillance to the menu, leveraging CareDx's existing lab and commercial infrastructure.",
+    "bull_case": "Revenue growth sustains above 30% on increasing testing volumes and digital care coordination adoption. Naveris integration succeeds and opens a new oncology surveillance revenue stream. Reimbursement expands across new transplant indications. Company approaches profitability on operating leverage.",
+    "bear_case": "Reimbursement disruption reduces coverage or rates for AlloSure. Revenue growth decelerates sharply. Naveris integration struggles or proves strategically misaligned. Competitors gain share in major transplant centers.",
+    "key_risks": "Reimbursement is the primary swing factor — any coverage change can impact volumes and pricing rapidly. Integration execution risk on Naveris. Competitive pressure at top transplant centers. Billing friction from complexity of testing codes.",
+    "recent_developments": "Q1 2026 revenue grew 39% YoY. Full-year guidance raised. Naveris acquisition completed — adds viral-mediated cancer surveillance. Digital care coordination platform scaling alongside core testing business."
+  },
+  "CTMX": {
+    "name": "CytomX Therapeutics",
+    "theme": "Oncology ADC",
+    "why_in_index": "Only EpCAM-directed ADC in clinical development with first-mover advantage in a large target. 32% ORR in heavily pretreated metastatic CRC is a genuine efficacy signal. H2 2026 data drop is a near-term high-conviction catalyst.",
+    "thesis": "Varseta-M showed a 32% ORR in heavily pretreated metastatic CRC — meaningful for a late-line population. As the only EpCAM-directed ADC in clinical development, it has first-mover advantage in a large target. Cash of ~$347M extends runway into at least H2 2028.",
+    "bull_case": "Full 40-patient cohort confirms 32% ORR with high-grade diarrhea rate <20%. FDA agrees on accelerated approval path via single-arm trial. Expansion cohorts show activity in non-CRC EpCAM-positive tumors — opening a 350K+ patient opportunity. CTMX becomes a high-value acquisition target.",
+    "bear_case": "High-grade diarrhea rate exceeds 20% in full cohort. Efficacy signal dilutes with larger data set. FDA requires randomized controlled trial — extends timeline by 3-4 years. Stock de-rates to cash value on perceived clinical failure.",
+    "key_risks": "Toxicity is the make-or-break factor — diarrhea management determines registrational path. ORR must hold in larger cohort. FDA alignment risk on trial design. Management has shown willingness to raise at steep discounts (March offering at $5.30 vs $8+ stock price).",
+    "recent_developments": "Varseta-M showed 32% ORR in 25+ evaluable late-line mCRC patients. Only EpCAM-directed ADC in clinical development. Cash ~$347M into H2 2028. H2 2026 brings full optimization cohort data, FDA alignment discussions, and expansion into non-CRC indications."
+  },
+  "GPCR": {
+    "name": "Structure Therapeutics",
+    "theme": "Obesity / GLP-1",
+    "why_in_index": "Best-in-class oral GLP-1 candidate in a trillion-dollar obesity market. FDA-endorsed Phase 2 data with Phase 3 imminent. $1.5B cash provides full Phase 3 funding without forced dilution. Only pure-play oral GLP-1 with this level of Phase 2 evidence.",
+    "thesis": "Phase 2 ACCESS II showed up to 16.3% body weight loss at 44 weeks for aleniglipron (oral GLP-1). The FDA gave positive end-of-Phase 2 feedback; Phase 3 initiates Q3 2026 with a lower 2.5mg starting dose to reduce early GI dropouts. $1.5B in cash provides runway through end of 2028.",
+    "bull_case": "Phase 3 initiates on schedule with clean protocol. Aleniglipron differentiates from injectable GLP-1s on convenience and tolerability. DILI risk does not emerge in Phase 3 safety data. Phase 3 efficacy confirms Phase 2 signal — GPCR becomes a major commercial target or M&A candidate for Novo/Lilly/Roche.",
+    "bear_case": "DILI (drug-induced liver injury) signal emerges in Phase 3 — the same issue that killed Pfizer's danuglipron. Phase 3 fails to replicate Phase 2 weight loss at scale. Novo Nordisk or Lilly launches oral GLP-1 first and captures the market. GPCR cannot differentiate on efficacy or tolerability.",
+    "key_risks": "DILI is the primary ghost risk — every oral GLP-1 developer carries this concern after danuglipron. Phase 3 execution at scale. Competition from Novo Nordisk (oral semaglutide next-gen) and Lilly. Commercial differentiation if multiple oral GLP-1s eventually approved. $76M quarterly burn while Phase 3 runs.",
+    "recent_developments": "Phase 2 ACCESS II data peer-reviewed and published in Nature Medicine — adds independent credibility. FDA gave positive end-of-Phase 2 meeting feedback. Phase 3 to initiate Q3 2026. SOTP analysis suggests ~$42/share fair value vs ~$37-38 trading price. Stock down ~38% from December 2025 highs."
+  },
+  "IDYA": {
+    "name": "IDEAYA Biosciences",
+    "theme": "Precision Oncology",
+    "why_in_index": "Clearest near-term regulatory path in the watchlist — NDA filing in process for a cancer with zero approved treatments. Phase 3 data is statistically decisive with p<0.0001. Roche collaboration adds optionality. Well-funded through 2030.",
+    "thesis": "Darovasertib + crizotinib reduced disease progression risk by 58% in first-line HLA*A2-negative metastatic uveal melanoma — a cancer with no FDA-approved treatments. The RTOR NDA submission process was initiated in May 2026, targeting filing completion in H2 2026. Cash of ~$973M with runway into 2030.",
+    "bull_case": "FDA accepts NDA filing and grants priority review. Darovasertib + crizotinib becomes the first approved treatment for uveal melanoma. OS data matures and confirms accelerated approval conversion to full approval. Label expands to HLA*A2-positive patients — significantly broadening addressable market. Roche PRMT5 collaboration generates additional clinical data.",
+    "bear_case": "FDA refuses to file or requests additional data. OS endpoint fails to confirm accelerated approval. Label is limited to HLA*A2-negative subset only — a smaller patient population. J&J, Roche, or other collaboration partners deprioritize adjacent programs.",
+    "key_risks": "OS endpoint maturity — accelerated approval hinges on PFS, but full approval needs OS data to confirm. FDA acceptance risk on the NDA. HLA*A2-positive label expansion data is unproven. ~$115M quarterly burn accelerating with commercial buildout. Raised $300M in June 2026 despite 2030 runway — signals management expects accelerated spending.",
+    "recent_developments": "Darovasertib + crizotinib Phase 3 showed 58% reduction in progression risk vs standard therapy (p<0.0001). RTOR submission initiated May 2026. NDA filing targeted H2 2026. Clinical collaboration with Roche for IDE892 + pan-RAS inhibitor. Cash ~$973M, runway into 2030."
+  },
+  "NRIX": {
+    "name": "Nurix Therapeutics",
+    "theme": "BTK Degrader / Immunology",
+    "why_in_index": "Mechanistically differentiated BTK degrader that outperforms existing BTK inhibitors in r/r CLL. Roche deal (June 2026) provides $700M upfront and de-risks the balance sheet entirely. $41B BTK inhibitor market by 2031 is a massive addressable opportunity.",
+    "thesis": "Bexobrutideg achieved 83% ORR and 22.1-month mPFS in r/r CLL — outperforming JAYPIRCA (65% ORR, 14-month mPFS) by eliminating both kinase and scaffolding BTK functions. The Roche deal (June 2026) provides $700M upfront with up to $2.3B in milestones and removes near-term cash concerns.",
+    "bull_case": "Roche deal closes Q3 2026 as planned. DAYBreak data supports accelerated approval filing. Phase 3 in second-line CLL initiates on schedule. MS and CSU Phase 2 studies show activity — dramatically broadening the addressable market beyond oncology. Bexobrutideg becomes a best-in-class BTK degrader across multiple indications.",
+    "bear_case": "Accelerated approval based on ORR is not converted to full approval if Phase 3 PFS data disappoints. MS/CSU translation fails — oncology MOA does not translate to immunology. Roche milestone targets are not achieved, limiting the total deal value to the upfront. Competitors develop rival BTK degraders.",
+    "key_risks": "OS/PFS confirmation for full approval — CLL data still immature. MS and CSU translation from oncology mechanism is promising but unproven in humans. $1.6B remaining in milestones is contingent on clinical and commercial targets. Roche execution risk in commercialization.",
+    "recent_developments": "Roche deal announced June 7, 2026: $700M upfront, up to $2.3B milestones, 40/60 cost split, equal US profit share, low-to-high-teen ex-US royalties. Phase 3 second-line CLL planned for summer 2026. BTK inhibitor market projected at $41B by 2031. Phase 2 studies in MS and CSU initiated."
+  }
+}

@@ -1,0 +1,23 @@
+# FACTOR SCORES
+# Edit this file to update scores. All scores are 0-100 except dilution_penalty (negative, 0 to -20).
+# analyst: consensus rating and price target upside
+# quality: gross margin, R&D efficiency
+# growth: revenue growth, pipeline stage progression
+# balance_sheet: cash runway, debt levels
+# valuation: EV/Revenue, P/S vs peers
+# capital_allocation: dilution history, buybacks
+# pipeline: phase, indication size, probability of success
+# platform: modality breadth, licensing potential
+# dilution_penalty: share count growth penalty (negative score)
+# total_score is calculated automatically
+
+ticker,company,analyst,quality,growth,balance_sheet,valuation,capital_allocation,pipeline,platform,dilution_penalty,notes
+NBTX,Nanobiotix,62,55,45,70,60,65,60,72,-8,Capital-light model with J&J backing scores well on balance sheet and platform. Growth score limited by single-asset dependency.
+IONS,Ionis Pharmaceuticals,72,68,65,75,58,62,75,85,-5,Strong platform score reflecting 30+ year ASO leadership. High pipeline and quality scores. Valuation constrained by still-negative EPS.
+CYTK,Cytokinetics,78,55,70,72,52,60,80,70,-10,High pipeline score on ACACIA-HCM binary. Growth score reflects Myqorzo launch momentum. Dilution penalty moderate from commercial buildout financing.
+GRAL,GRAIL,58,30,75,60,35,50,65,80,-12,High growth and platform scores. Quality score very low due to negative gross margins. Valuation score low reflecting heavy cash burn vs revenue.
+CDNA,CareDx,70,65,78,58,55,58,60,65,-8,High growth score on 39% YoY revenue. Quality and analyst scores solid. Balance sheet tighter post-Naveris acquisition.
+CTMX,CytomX Therapeutics,55,45,50,65,70,45,62,68,-18,High dilution penalty from March offering at steep discount. Pipeline score reflects real ORR signal. Capital allocation score low on management dilution history.
+GPCR,Structure Therapeutics,68,52,60,78,50,62,72,65,-5,Strong balance sheet score on $1.5B cash. Pipeline score reflects Phase 2 data and FDA endorsement. Valuation reasonable post-selloff.
+IDYA,IDEAYA Biosciences,75,55,65,80,55,65,85,70,-7,Highest pipeline score in watchlist — NDA in process with p<0.0001 data. Balance sheet strong into 2030. Pipeline and analyst scores reflect regulatory clarity.
+NRIX,Nurix Therapeutics,80,60,62,85,55,70,78,75,-6,Highest analyst score post-Roche deal. Balance sheet de-risked by $700M upfront. Platform score reflects degrader mechanism differentiation and immunology expansion.

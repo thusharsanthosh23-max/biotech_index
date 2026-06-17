@@ -1,0 +1,28 @@
+# CATALYST CALENDAR DATA
+# Edit this file to update catalyst information
+# Columns: ticker, company, catalyst, catalyst_type, expected_timing, quarter, importance, bull_impact, bear_risk, source
+# catalyst_type options: clinical, regulatory, earnings, partnership, commercial
+# importance: 1-5 (5 = most impactful)
+# quarter format: Q1 2026, Q2 2026, etc.
+
+ticker,company,catalyst,catalyst_type,expected_timing,quarter,importance,bull_impact,bear_risk,source
+CYTK,Cytokinetics,ACACIA-HCM Phase 3 topline data (aficamten in nHCM),clinical,Q2 2026,Q2 2026,5,Confirms major market expansion into non-obstructive HCM — a larger underserved population than oHCM. Could double addressable market.,Trial failure would remove key growth driver and pressure stock significantly.,https://ir.cytokinetics.com
+CYTK,Cytokinetics,Myqorzo EU commercial ramp update,commercial,Q2 2026,Q2 2026,3,Strong EU uptake confirms global commercial potential beyond US.,Slow EU launch signals competitive or pricing headwinds.,https://ir.cytokinetics.com
+NRIX,Nurix Therapeutics,Roche partnership close (bexobrutideg),partnership,Q3 2026,Q3 2026,5,Deal close triggers $700M upfront — removes dilution risk and validates platform.,Regulatory delay in close; unlikely but possible.,https://ir.nurixtx.com
+NRIX,Nurix Therapeutics,DAYBreak CLL-201 enrollment completion,clinical,H2 2026,Q3 2026,4,Full enrollment toward accelerated approval filing. Strong ORR data could accelerate NDA filing.,Slow enrollment or safety signal delays timeline.,https://ir.nurixtx.com
+NRIX,Nurix Therapeutics,Phase 3 second-line CLL initiation,clinical,Summer 2026,Q3 2026,4,Phase 3 start validates regulatory path toward full approval.,Protocol delays push timeline into 2027.,https://ir.nurixtx.com
+IDYA,IDEAYA Biosciences,NDA filing completion (darovasertib + crizotinib),regulatory,H2 2026,Q3 2026,5,First FDA filing for a drug in uveal melanoma — a cancer with no approved treatments.,FDA refuses to file or requests additional data.,https://ir.ideayabio.com
+IDYA,IDEAYA Biosciences,HLA*A2-positive mUM data readout,clinical,H2 2026,Q4 2026,4,Positive data expands label to a broader mUM population.,Negative data limits label to HLA*A2-negative subset only.,https://ir.ideayabio.com
+CTMX,CytomX Therapeutics,Varseta-M full 40-patient cohort data (mCRC),clinical,H2 2026,Q3 2026,5,Confirms 32% ORR signal and shows <20% high-grade diarrhea — clears path to registrational trial.,Toxicity rate >20% or ORR fails to hold in larger cohort.,https://ir.cytomx.com
+CTMX,CytomX Therapeutics,FDA alignment on registrational trial design,regulatory,H2 2026,Q4 2026,4,FDA agrees on single-arm accelerated approval path — reduces time to market.,FDA requires randomized controlled trial — significantly longer timeline.,https://ir.cytomx.com
+CTMX,CytomX Therapeutics,Expansion cohort initiation (non-CRC indications),clinical,H2 2026,Q4 2026,3,Broadens story to 350K+ EpCAM-positive patients across multiple tumor types.,Early safety signals in expansion cohorts slow momentum.,https://ir.cytomx.com
+GPCR,Structure Therapeutics,Phase 3 aleniglipron trial initiation,clinical,Q3 2026,Q3 2026,5,Phase 3 start is the key de-risking event — confirms FDA alignment and lower 2.5mg starting dose.,FDA requests protocol changes or enrollment delays signal.,https://ir.structuretherapeutics.com
+GPCR,Structure Therapeutics,Phase 3 protocol and FDA alignment details,regulatory,Q3 2026,Q3 2026,4,Clear DILI monitoring protocol and manageable stopping rules builds confidence.,Aggressive DILI stopping rules signal FDA concern about liver safety.,https://ir.structuretherapeutics.com
+GRAL,GRAIL,Payer/reimbursement coverage decision,regulatory,2026,Q3 2026,5,National coverage determination for Galleri unlocks large-scale recurring revenue.,Coverage denial forces out-of-pocket model — slows volume growth significantly.,https://ir.grail.com
+GRAL,GRAIL,Q2 2026 earnings — volume growth update,earnings,Q3 2026,Q3 2026,3,Continued 50%+ volume growth confirms commercial traction.,Volume growth decelerates — signals pricing or demand headwinds.,https://ir.grail.com
+CDNA,CareDx,Q2 2026 earnings — revenue and guidance update,earnings,Q3 2026,Q3 2026,3,Revenue beat and raised guidance confirms transplant surveillance demand acceleration.,Miss or guidance cut raises reimbursement risk concerns.,https://ir.caredx.com
+CDNA,CareDx,Naveris integration update,commercial,H2 2026,Q4 2026,3,Successful integration adds viral-mediated cancer surveillance to existing platform.,Integration delays or cost overruns pressure margins.,https://ir.caredx.com
+IONS,Ionis Pharmaceuticals,TRYNGOLZA and DAWNZERA commercial revenue update,commercial,Q3 2026,Q3 2026,4,Strong product revenue confirms transition to commercial-stage high-margin biotech.,Slow launch velocity raises questions about commercial execution.,https://ir.ionispharma.com
+IONS,Ionis Pharmaceuticals,Late-stage pipeline readouts,clinical,H2 2026,Q4 2026,3,Additional pipeline catalysts diversify and de-risk the story.,Clinical setbacks pressure royalty stream expectations.,https://ir.ionispharma.com
+NBTX,Nanobiotix,JNJ-1900 pivotal trial interim data,clinical,2026,Q4 2026,5,Positive interim data validates the platform and triggers milestone payments to NBTX.,Negative interim triggers trial reassessment — J&J may deprioritize.,https://ir.nanobiotix.com
+NBTX,Nanobiotix,J&J milestone payment trigger,partnership,2026,Q4 2026,4,Milestone payment extends runway and validates capital-light model.,Milestone missed — delays cash inflow and tests runway assumptions.,https://ir.nanobiotix.com
