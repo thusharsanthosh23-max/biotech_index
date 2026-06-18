@@ -82,7 +82,6 @@ def render():
     if sel_partner != "All":
         filtered = filtered[filtered["partner"] == sel_partner]
 
-    # Sort by phase advancement
     filtered["phase_order"] = filtered["phase"].apply(
         lambda p: PHASE_ORDER.index(p) if p in PHASE_ORDER else 99
     )
@@ -93,18 +92,33 @@ def render():
     # ── Pipeline cards ────────────────────────────────────────────────────
     for _, row in filtered.iterrows():
         phase_color = PHASE_COLORS.get(row.get("phase", ""), "#8b949e")
-        ticker_color = TICKER_COLORS.get(row.get("ticker", ""), "#58a6ff")
 
-        partner_str = row.get("partner", "None")
-        if pd.isna(partner_str) or str(partner_str).strip() == "":
+        partner_str = str(row.get("partner", "None"))
+        if pd.isna(row.get("partner")) or partner_str.strip() == "" or partner_str == "nan":
             partner_str = "None"
 
-        notes_str = row.get("notes", "")
-        if pd.isna(notes_str):
+        notes_str = str(row.get("notes", ""))
+        if pd.isna(row.get("notes")):
             notes_str = ""
 
-        milestone_str = row.get("upcoming_milestone", "")
-        timing_str = row.get("estimated_timing", "")
+        milestone_str = str(row.get("upcoming_milestone", ""))
+        timing_str = str(row.get("estimated_timing", ""))
+        if pd.isna(row.get("upcoming_milestone")):
+            milestone_str = ""
+
+        # Build milestone block separately
+        if milestone_str and milestone_str != "nan":
+            milestone_html = f"""
+            <div style="background:#0d1117;border-radius:4px;padding:8px 12px;margin-bottom:8px">
+                <span style="font-size:11px;color:{TEXT_DIM};text-transform:uppercase">Next Milestone: </span>
+                <span style="color:#e3b341;font-size:13px">{milestone_str}</span>
+                <span style="color:{TEXT_DIM};font-size:12px"> · {timing_str}</span>
+            </div>"""
+        else:
+            milestone_html = ""
+
+        # Build notes block separately
+        notes_html = f'<div style="color:{TEXT_DIM};font-size:12px;line-height:1.5">{notes_str}</div>' if notes_str and notes_str != "nan" else ""
 
         st.markdown(f"""
         <div style="background:{PANEL_BG};border:1px solid {BORDER_CLR};border-left:3px solid {phase_color};
@@ -131,13 +145,8 @@ def render():
                     <div style="color:{TEXT_MAIN};font-size:13px">{partner_str}</div>
                 </div>
             </div>
-            {"" if not milestone_str or pd.isna(milestone_str) else f'''
-            <div style="background:#0d1117;border-radius:4px;padding:8px 12px;margin-bottom:8px">
-                <span style="font-size:11px;color:{TEXT_DIM};text-transform:uppercase">Next Milestone: </span>
-                <span style="color:#e3b341;font-size:13px">{milestone_str}</span>
-                <span style="color:{TEXT_DIM};font-size:12px"> · {timing_str}</span>
-            </div>'''}
-            {"" if not notes_str else f'<div style="color:{TEXT_DIM};font-size:12px;line-height:1.5">{notes_str}</div>'}
+            {milestone_html}
+            {notes_html}
         </div>
         """, unsafe_allow_html=True)
 
