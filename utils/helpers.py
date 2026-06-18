@@ -246,7 +246,7 @@ def load_catalysts():
     if not os.path.exists(fpath):
         st.warning("catalysts.csv not found. Add it to the /data folder.")
         return pd.DataFrame()
-    df = pd.read_csv(fpath)
+    df = pd.read_csv(fpath, on_bad_lines='skip')
     df.columns = df.columns.str.strip()
     required = ["ticker", "company", "catalyst", "catalyst_type",
                 "expected_timing", "quarter", "importance", "bull_impact", "bear_risk"]
@@ -276,7 +276,7 @@ def load_pipeline():
     if not os.path.exists(fpath):
         st.warning("pipeline.csv not found. Add it to the /data folder.")
         return pd.DataFrame()
-    df = pd.read_csv(fpath)
+    df = pd.read_csv(fpath, on_bad_lines='skip')
     df.columns = df.columns.str.strip()
     return df
 
@@ -288,7 +288,7 @@ def load_scores():
     if not os.path.exists(fpath):
         st.warning("scores.csv not found. Add it to the /data folder.")
         return pd.DataFrame()
-    df = pd.read_csv(fpath)
+    df = pd.read_csv(fpath, on_bad_lines='skip')
     df.columns = df.columns.str.strip()
     score_cols = ["analyst", "quality", "growth", "balance_sheet",
                   "valuation", "capital_allocation", "pipeline", "platform", "dilution_penalty"]
