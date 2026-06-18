@@ -1,13 +1,11 @@
 """
 app.py — Biotech Intelligence Dashboard
-Entry point. All page logic lives in /pages/. Shared utils in /utils/.
+Entry point. All page logic lives in /_pages/. Shared utils in /utils/.
 Data files: /data/data.xlsx, catalysts.csv, theses.json, pipeline.csv, scores.csv
 """
-
 import sys
 import os
 
-# Ensure local modules are importable when running from repo root
 sys.path.insert(0, os.path.dirname(__file__))
 
 import streamlit as st
@@ -22,6 +20,13 @@ st.set_page_config(
 )
 
 inject_css()
+
+# ── Hide Streamlit's auto-generated multipage nav ─────────────────────────────
+st.markdown("""
+<style>
+    [data-testid="stSidebarNav"] { display: none !important; }
+</style>
+""", unsafe_allow_html=True)
 
 # ── Sidebar navigation ────────────────────────────────────────────────────────
 with st.sidebar:
@@ -47,37 +52,35 @@ with st.sidebar:
     st.markdown("<div class='section-label' style='margin-top:12px'>Benchmarks</div>", unsafe_allow_html=True)
     st.markdown("XBI · IBB · SPY")
 
-
 # ── Page routing ──────────────────────────────────────────────────────────────
-
 if page == "📊 Dashboard":
-    from pages import dashboard
+    from _pages import dashboard
     dashboard.render()
 
 elif page == "📈 Index Performance":
-    from pages import index_performance
+    from _pages import index_performance
     index_performance.render()
 
 elif page == "🏢 Holdings":
-    from pages import holdings
+    from _pages import holdings
     holdings.render()
 
 elif page == "📅 Catalyst Calendar":
-    from pages import catalyst_calendar
+    from _pages import catalyst_calendar
     catalyst_calendar.render()
 
 elif page == "🔬 Company Deep Dive":
-    from pages import company_thesis
+    from _pages import company_thesis
     company_thesis.render()
 
 elif page == "🧪 Pipeline":
-    from pages import pipeline
+    from _pages import pipeline
     pipeline.render()
 
 elif page == "⭐ Score Breakdown":
-    from pages import scores
+    from _pages import scores
     scores.render()
 
 elif page == "📋 Methodology":
-    from pages import methodology
+    from _pages import methodology
     methodology.render()
