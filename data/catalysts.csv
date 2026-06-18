@@ -1,10 +1,3 @@
-# CATALYST CALENDAR DATA
-# Edit this file to update catalyst information
-# Columns: ticker, company, catalyst, catalyst_type, expected_timing, quarter, importance, bull_impact, bear_risk, source
-# catalyst_type options: clinical, regulatory, earnings, partnership, commercial
-# importance: 1-5 (5 = most impactful)
-# quarter format: Q1 2026, Q2 2026, etc.
-
 ticker,company,catalyst,catalyst_type,expected_timing,quarter,importance,bull_impact,bear_risk,source
 CYTK,Cytokinetics,ACACIA-HCM Phase 3 topline data (aficamten in nHCM),clinical,Q2 2026,Q2 2026,5,Confirms major market expansion into non-obstructive HCM — a larger underserved population than oHCM. Could double addressable market.,Trial failure would remove key growth driver and pressure stock significantly.,https://ir.cytokinetics.com
 CYTK,Cytokinetics,Myqorzo EU commercial ramp update,commercial,Q2 2026,Q2 2026,3,Strong EU uptake confirms global commercial potential beyond US.,Slow EU launch signals competitive or pricing headwinds.,https://ir.cytokinetics.com

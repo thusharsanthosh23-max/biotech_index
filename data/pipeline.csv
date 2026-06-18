@@ -1,8 +1,3 @@
-# PIPELINE DATABASE
-# Edit this file to update pipeline information
-# modality options: Small Molecule, ADC, Antisense Oligonucleotide, Protein Degrader, Liquid Biopsy, Cell Therapy, Biologic
-# phase options: Preclinical, Phase 1, Phase 1/2, Phase 2, Phase 2b, Phase 3, NDA Filed, Approved, Commercial
-
 ticker,company,asset,modality,indication,phase,partner,upcoming_milestone,estimated_timing,notes
 CYTK,Cytokinetics,Aficamten (Myqorzo),Small Molecule,Obstructive HCM (oHCM),Commercial,None,China / EU commercial ramp,2026,First wholly-owned CYTK commercial product. Approved US + China + EU.
 CYTK,Cytokinetics,Aficamten (ACACIA-HCM),Small Molecule,Non-Obstructive HCM (nHCM),Phase 3,None,Topline data,Q2 2026,Pivotal trial. nHCM is a larger and underserved population vs oHCM. p-value success = major re-rating event.

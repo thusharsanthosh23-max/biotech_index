@@ -1,16 +1,3 @@
-# FACTOR SCORES
-# Edit this file to update scores. All scores are 0-100 except dilution_penalty (negative, 0 to -20).
-# analyst: consensus rating and price target upside
-# quality: gross margin, R&D efficiency
-# growth: revenue growth, pipeline stage progression
-# balance_sheet: cash runway, debt levels
-# valuation: EV/Revenue, P/S vs peers
-# capital_allocation: dilution history, buybacks
-# pipeline: phase, indication size, probability of success
-# platform: modality breadth, licensing potential
-# dilution_penalty: share count growth penalty (negative score)
-# total_score is calculated automatically
-
 ticker,company,analyst,quality,growth,balance_sheet,valuation,capital_allocation,pipeline,platform,dilution_penalty,notes
 NBTX,Nanobiotix,62,55,45,70,60,65,60,72,-8,Capital-light model with J&J backing scores well on balance sheet and platform. Growth score limited by single-asset dependency.
 IONS,Ionis Pharmaceuticals,72,68,65,75,58,62,75,85,-5,Strong platform score reflecting 30+ year ASO leadership. High pipeline and quality scores. Valuation constrained by still-negative EPS.
